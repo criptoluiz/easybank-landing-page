@@ -1,0 +1,16 @@
+/*
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
