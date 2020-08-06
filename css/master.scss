@@ -30,7 +30,7 @@ body,
 #main {
     h1 {
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 300;
         color: $darkBlue;
     }
     
@@ -77,4 +77,51 @@ body,
         padding: 0 5vw;
     }
 
+}
+
+.second {
+    background-color: $lightGrayishBlue;
+    padding: 7.5vh 6vw;
+
+
+    .row {
+        margin-top: 4vh;
+    }
+
+    img {
+        margin: 3.5vh 0 1vh 0;
+    }
+
+    h1 { margin: 2vh 0; }
+    h2 {
+        font-weight: 300;
+        margin: 2vh 0;
+        font-size: 1.2rem;
+        color: $darkBlue;
+    }
+ 
+}
+
+.third {
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    background-color: $darkBlue;
+
+    a {
+        color: white;
+        margin: 1vh 2vw;
+    }
+
+    button {
+        border-style: none;
+        height: 45px;
+        margin: 3vh 0 4vh 0;
+    }
 }

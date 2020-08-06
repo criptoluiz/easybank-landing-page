@@ -17,7 +17,7 @@ body,
 
 #main h1 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 300;
   color: #2d314d;
 }
 #main p {
@@ -56,6 +56,44 @@ body,
 }
 .first .first-text {
   padding: 0 5vw;
+}
+
+.second {
+  background-color: #f3f4f6;
+  padding: 7.5vh 6vw;
+}
+.second .row {
+  margin-top: 4vh;
+}
+.second img {
+  margin: 3.5vh 0 1vh 0;
+}
+.second h1 {
+  margin: 2vh 0;
+}
+.second h2 {
+  font-weight: 300;
+  margin: 2vh 0;
+  font-size: 1.2rem;
+  color: #2d314d;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d314d;
+}
+.footer a {
+  color: white;
+  margin: 1vh 2vw;
+}
+.footer button {
+  border-style: none;
+  height: 45px;
+  margin: 3vh 0 4vh 0;
 }
 
 /*# sourceMappingURL=main.css.map */
