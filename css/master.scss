@@ -23,7 +23,7 @@ body,
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     color: black;
-    
+    box-sizing: border-box;
 }
 
 
@@ -43,7 +43,7 @@ body,
         background: linear-gradient(90deg, $limeGreen, $brightCyan);
         color: white;
         border-radius: 30px;
-        width: 50vw;
+        max-width: 50vw;
     }
 }
 
@@ -159,5 +159,36 @@ body,
         border-style: none;
         height: 45px;
         margin: 3vh 0 4vh 0;
+    }
+}
+
+@media (min-width:700px) {
+    .first {
+        flex-direction: row-reverse;
+        text-align: left;
+        margin-bottom: 0;
+        overflow: hidden;
+
+        .first-text {
+            width: 70%;
+
+            .btn {
+                width: 15vw;
+            }
+        }
+
+        .intro-img{
+            background-image: url("../images/bg-intro-desktop.svg");overflow: visible;
+            background-position: center right;
+        }
+
+        .mockup {
+            max-width: 80%;
+            position: relative;
+            top: -15vh;
+            left: 25vh;
+            
+        }
+        
     }
 }
