@@ -107,15 +107,37 @@ body,
     text-align: center;
     padding: 10vh 0 7.5vh 0;
 
+    .img-article {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .article-img {
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    .subtitle {
+        margin: 3vh 0 1vh 0;
+    }
 
     .article {
         background-color: white;
-        margin: 3vh 5vw;
+        margin: 3vh 10vw;
         text-align: left;
+        padding: 0;
+        border-radius: 5px;
 
         h3 {
             font-size: 1.2rem;
             font-weight: 300;
+        }
+
+        p,
+        h3 {
+            margin: 2vh 2vh;
         }
     }
 }

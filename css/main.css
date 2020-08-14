@@ -84,14 +84,33 @@ body,
   text-align: center;
   padding: 10vh 0 7.5vh 0;
 }
+.third .img-article {
+  height: auto;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.third .article-img {
+  height: 30vh;
+  overflow: hidden;
+}
+.third .subtitle {
+  margin: 3vh 0 1vh 0;
+}
 .third .article {
   background-color: white;
-  margin: 3vh 5vw;
+  margin: 3vh 10vw;
   text-align: left;
+  padding: 0;
+  border-radius: 5px;
 }
 .third .article h3 {
   font-size: 1.2rem;
   font-weight: 300;
+}
+.third .article p,
+.third .article h3 {
+  margin: 2vh 2vh;
 }
 
 .footer {
